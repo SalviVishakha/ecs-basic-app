@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello Vishakha 🚀 Your ECS app is running!");
+  res.send("Hello from ci/cd deployment !");
 });
 
 app.get("/about", (req, res) => {
