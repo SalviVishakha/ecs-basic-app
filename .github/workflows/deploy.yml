@@ -10,7 +10,7 @@ env:
   ECR_REPOSITORY: ecs-basic-app
   ECS_SERVICE: ecs-basic-task-service-xlz0ahq4
   ECS_CLUSTER: ecs-learning-cluster
-  CONTAINER_NAME: ecs-basic-container
+  CONTAINER_NAME: ecs-container
 
 jobs:
   deploy:
