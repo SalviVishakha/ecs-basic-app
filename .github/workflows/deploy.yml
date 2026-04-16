@@ -8,8 +8,8 @@ on:
 env:
   AWS_REGION: ap-south-1
   ECR_REPOSITORY: ecs-basic-app
-  ECS_SERVICE: ecs-basic-task-service
-  ECS_CLUSTER: ecs-basic-cluster
+  ECS_SERVICE: ecs-basic-task-service-xlz0ahq4
+  ECS_CLUSTER: ecs-learning-cluster
   CONTAINER_NAME: ecs-basic-container
 
 jobs:
